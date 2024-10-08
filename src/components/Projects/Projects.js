@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import erpSoftware from "../../Assets/Projects/erp-software.png";
 import chatApp from "../../Assets/Projects/chat-app.png";
+import shodaApp from "../../Assets/Projects/betit.png";
 
 function Projects() {
   return (
@@ -35,16 +36,14 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              imgPath={shodaApp}
+              title="3D e-commerce landing page"
+              description="Betit is a sleek and modern e-commerce landing page for a fictional soda brand. It features eye-catching 3D animations and smooth scroll effects to create an engaging user experience. Built with Next.js for fast performance and react-three-fiber for 3D models, the site is styled using Tailwind CSS to ensure a clean, responsive design."
+              demoLink="https://betit.vercel.app/"
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
