@@ -23,7 +23,7 @@ function Projects() {
               imgPath={erpSoftware}
               title="Computer-Aided Facility Management Software(ERP)"
               description="This project aims to streamline the management of hospital facilities by improving asset tracking, space utilization, and maintenance scheduling. The system helps monitor and maintain medical equipment, optimize the use of hospital spaces, and automate maintenance tasks."
-              demoLink="http://host.tranetech.ae:7200/app/dashboards/default"
+              demoLink="https://host.tranetech.ae:7200/app/dashboards/default"
             />
           </Col>
 
