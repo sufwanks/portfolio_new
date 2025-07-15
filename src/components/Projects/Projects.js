@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import aksa from "../../Assets/Projects/aksa.png";
 import erpSoftware from "../../Assets/Projects/erp-software.png";
 import chatApp from "../../Assets/Projects/chat-app.png";
 import shodaApp from "../../Assets/Projects/betit.png";
@@ -18,6 +19,14 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aksa}
+              title="AKSA Studio - NOVARTIS"
+              description="Aksa is a workflow and discrepancy management dashboard built for Novartis Pharma, enabling efficient comparison between Workday and Core Data, with features like automated reports, bulk operations, and role-based access."
+              demoLink="https://aksa.documentitllc.com/#/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={erpSoftware}
