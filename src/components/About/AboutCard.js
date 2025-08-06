@@ -11,8 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Sufwan KS </span>
             from <span className="purple"> Kerala, India.</span>
             <br />
-            I am currently employed as a software developer at tranetech
-            software solutions.
+            I am currently employed as a Front-end developer at Document IT LLC.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
